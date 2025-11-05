@@ -22,7 +22,7 @@ This lab demonstrates proficiency in command-line interface (CLI) operations, us
   
   A critical step in system administration is creating a dedicated, non-root administrative account, adhering to the Principle of Least Privilege.
   
-  1. Creating the Dedicated sysadmin User
+  - Creating the Dedicated sysadmin User
   
   The user is added with full privilege capabilities.
   
