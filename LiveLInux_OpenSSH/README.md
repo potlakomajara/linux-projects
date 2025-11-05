@@ -6,7 +6,7 @@ This project documents the foundational steps taken during a controlled deployme
 
 This lab demonstrates proficiency in command-line interface (CLI) operations, user management, log analysis, and service installation in a temporary environment.
 
-• Phase 1: Environment Preparation and System Status
+# Phase 1: Environment Preparation and System Status
 
   The project began by preparing the non-persistent environment.
   
@@ -18,7 +18,7 @@ This lab demonstrates proficiency in command-line interface (CLI) operations, us
   
     Boot the system and select the option to use the environment without installing, ensuring a clean slate for the session.
 
-• Phase 2: Secure User Management and Privilege Verification
+# Phase 2: Secure User Management and Privilege Verification
   
   A critical step in system administration is creating a dedicated, non-root administrative account, adhering to the Principle of Least Privilege.
   
@@ -51,7 +51,7 @@ This lab demonstrates proficiency in command-line interface (CLI) operations, us
     *Note: In a fresh Live Session, this typically returns a clean output.* 
 
 
-• Phase 3: Service Deployment and Documented Failure
+# Phase 3: Service Deployment and Documented Failure
 
   The final step was the deployment of the OpenSSH server and an immediate functional test.
   
@@ -76,7 +76,7 @@ This lab demonstrates proficiency in command-line interface (CLI) operations, us
   *Result: Connection cannot be established (e.g., "ssh: connect to host localhost port 22: Connection refused")*
 
 
-Conclusion and Next Steps
+# Conclusion and Next Steps
 
 The recorded failure ("localhost can't be established") documents a key troubleshooting scenario. SSH was implemented but I encountered a service avaliability failure. In a real deployment, the next steps would involve:
 
